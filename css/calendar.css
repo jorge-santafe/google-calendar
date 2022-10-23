@@ -1,10 +1,13 @@
+@import url('./event-cell.css');
+@import url('./event.css');
+
 .calendar{
     color: var(--gray20);
     padding-inline: 1rem;
 }
 .calendar-week{
     display:grid;
-    grid-template-columns: auto repeat(7,minmax(9.625rem,max-content));
+    grid-template-columns: auto repeat(7,minmax(9.625rem,1fr));
     grid-template-rows: 7.75rem repeat(24,minmax(3.5rem,auto));
     min-block-size: 700px;
 }

@@ -1,0 +1,17 @@
+.event{
+    color: var(--white);
+    font: var(--body2-medium);
+    border-radius: .25rem;
+    padding-inline:1rem;
+    padding-block: 0.625rem;
+    overflow: hidden;
+    background-color: var(--blue10);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+}
+.event p{
+    margin: 0;
+    white-space: nowrap;
+}
