@@ -3,5 +3,6 @@
 @import url('./global.css');
 @import url('./calendar.css');
 @import url('./timezone-cell.css');
-@import url('./hour-cell.css')
+@import url('./hour-cell.css');
+@import url('./current-time.css');
 

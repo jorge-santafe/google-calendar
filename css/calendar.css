@@ -5,6 +5,7 @@
 .calendar{
     color: var(--gray20);
     padding-inline: 1rem;
+    position: relative;
 }
 .calendar-week{
     display:grid;

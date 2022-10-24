@@ -15,5 +15,4 @@
 }   
 .page .calendar{
     grid-area: calendar;
-    outline: 1px solid green;
 }
