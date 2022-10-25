@@ -1,18 +1,17 @@
-.page{
-    block-size: 100vh;
-    display: grid;
-    grid-template-columns: 15.25rem 1fr;
-    grid-template-rows: 6rem 1fr;
-    grid-template-areas: "header header" "sidebar calendar";
+.page {
+  block-size: 100vh;
+  display: grid;
+  grid-template-columns: 15.25rem 1fr;
+  grid-template-rows: 6rem 1fr;
+  grid-template-areas: "header header" "sidebar calendar";
 }
-.page .header{
-    grid-area: header;
-    outline: 1px solid blue;
+.page .header {
+  grid-area: header;
 }
-.page .sidebar{
-    grid-area: sidebar;
-    outline: 1px solid red;
-}   
-.page .calendar{
-    grid-area: calendar;
+.page .sidebar {
+  grid-area: sidebar;
+  outline: 1px solid red;
+}
+.page .calendar {
+  grid-area: calendar;
 }
