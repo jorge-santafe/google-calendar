@@ -430,7 +430,49 @@
         </main>
     </div>
     <dialog  class="modal">
-        <form action=""></form>
+        <form action="" class="createTask">
+            <div class="input is-outstanding">
+                <div class="input-body">
+                    <input type="text" name="title" id="title" id="" placeholder="Añade un título" required>
+                </div>
+            </div>
+            <div class="input">
+                <i class="icon-clock" aria-hidden="true"></i>
+                <div class="input-body">
+                    <input type="date" name="date" id="date" required>
+                    <input type="time" name="time-start" id="time-start" required>
+                    <input type="time" name="time-end" id="time-end" required>
+                </div>
+            </div>
+            <div class="input">
+                <i class="icon-users" aria-hidden="true"></i>
+                <div class="input-body">
+                    <input type="text" list="guests" name="guests"  placeholder="Agregar Invitados" required>
+                    <datalist id="guests">
+                        <option value="Jorge"></option>
+                        <option value="Andres"></option>
+                        <option value="Alejandra"></option>
+                    </datalist>
+                </div>
+            </div>
+            <div class="input">
+                <i class="icon-gps"></i>
+                <div class="input-body">
+                    <input type="text" name="gps" id="gps-modal" placeholder="Agregar lugar">
+                </div>
+            </div>
+            <div class="input">
+                <i class="icon-text" aria-hidden="none"></i>
+                <div class="input-body">
+                    <input type="file" multiple name="file" id="file">
+                </div>
+            </div>
+            <div class="input">
+                <div class="input-body">
+                    <textarea name="description" placeholder="Agregar una descripción" id="description" cols="40" rows="2"></textarea>
+                </div>
+            </div>
+        </form>
         <div class="modal-actions">
             <button class="button">Cancelar</button>
             <button class="button is-primary">Guardar</button>
