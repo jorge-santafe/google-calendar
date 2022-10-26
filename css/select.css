@@ -8,5 +8,5 @@
   appearance: none;
   background-image: url(../icons/arrow-down.svg);
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: right 0.25rem center;
 }

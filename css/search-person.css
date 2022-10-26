@@ -1,0 +1,19 @@
+.searchPerson {
+  display: flex;
+  position: relative;
+}
+.searchPerson i {
+  position: absolute;
+  left: 1rem;
+  transform: translateY(70%);
+  font-size: 1rem;
+}
+.searchPerson input {
+  background-color: var(--gray10);
+  padding-block: 0.625rem;
+  padding-inline-start: 2.625rem;
+  padding-inline-end: 0.5rem;
+  border-radius: 0.25rem;
+  font: var(--body1-regular);
+  border: none;
+}

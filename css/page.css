@@ -10,7 +10,6 @@
 }
 .page .sidebar {
   grid-area: sidebar;
-  outline: 1px solid red;
 }
 .page .calendar {
   grid-area: calendar;
