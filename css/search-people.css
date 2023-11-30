@@ -1,0 +1,20 @@
+.searchPeople {
+  inline-size: 210px;
+  position: relative;
+}
+.searchPeople i {
+  font-size: 16px;
+  position: absolute;
+  inset-block: 25%;
+  inset-inline-start: 8px;
+  color: var(--gray40);
+}
+.search {
+  inline-size: 100%;
+  padding-block: 0.625rem;
+  padding-inline-start: 32px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--gray10);
+  box-sizing: border-box;
+}

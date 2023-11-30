@@ -1,0 +1,49 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.input input,
+.input textarea {
+  inline-size: 100%;
+  padding-block: 0.625rem;
+  padding-inline: 1rem;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  font: var(--body1-regular);
+}
+.input input:hover,
+.input input:focus,
+.input textarea:hover,
+.input textarea:focus {
+  background: var(--gray10);
+  transition: 0.3s;
+  outline: none;
+}
+.input i {
+  font-size: 24px;
+}
+.input.is-outstanding input {
+  font: var(--subtitle-subtitle1);
+}
+.input.is-outstanding input::placeholder {
+  color: var(--gray50);
+}
+.input-clock {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.input-clock > * {
+  flex: 1;
+}
+.input input:focus,
+.input textarea:focus {
+  box-shadow: 0 2px 0 var(--blue10);
+}

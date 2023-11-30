@@ -1,0 +1,10 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+  position: fixed;
+  inset-block-start: 4rem;
+}

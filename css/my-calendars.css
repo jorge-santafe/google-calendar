@@ -1,0 +1,24 @@
+.myCalendars-dropdown button {
+  background: transparent;
+  border: none;
+  font: var(--body1-regular);
+  display: block;
+  inline-size: 13.125rem;
+  text-align: left;
+  background-image: url('../fonts/icons/chevron-up.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-block-end: 0.625rem;
+  padding-inline: 0;
+}
+.myCalendars-dropdownMenu a {
+  display: block;
+  text-decoration: none;
+  color: var(--gray-30);
+  font: var(--body1-regular);
+  padding-block: 8px;
+}
+.myCalendars-dropdownMenu a:hover {
+  background-color: var(--gray10);
+  transition: 0.3s;
+}

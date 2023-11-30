@@ -1,0 +1,27 @@
+.modal {
+  flex-direction: column;
+  gap: 1.5rem;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  margin: initial;
+  inline-size: 100%;
+  max-inline-size: 28rem;
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+  box-shadow: 0.08734px 2.52442px 7.4963px 0px rgba(0, 0, 0, 0.07),
+    0.41288px 11.9336px 29.3037px 0px rgba(0, 0, 0, 0.04),
+    1.0719px 30.98146px 92px 0px rgba(0, 0, 0, 0.03);
+}
+.modal[open] {
+  display: flex;
+}
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal-actions {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: end;
+}
